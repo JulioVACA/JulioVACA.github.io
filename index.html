@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game Julio Vaca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🐄 Snake Game Julio Vaca</h1>
+        <div class="score-container">
+            <p>Score: <span id="current-score">0</span></p>
+            <p>High Score: <span id="high-score">0</span></p>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+        <div class="controls">
+            <button id="up-btn">⬆️</button>
+            <div class="horizontal-controls">
+                <button id="left-btn">⬅️</button>
+                <button id="down-btn">⬇️</button>
+                <button id="right-btn">➡️</button>
+            </div>
+        </div>
+        <div id="game-over" class="overlay">
+            <p>Game Over!</p>
+            <button id="restart-btn">Play Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
